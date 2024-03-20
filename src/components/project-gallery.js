@@ -14,7 +14,7 @@ export default function ProjectGallery(){
             <div className='portfolio-gallery'>
                 {PROJECTS.map(project=>(
                     <ProjectComponent key={project.id} img={project.img} 
-                    description={project.description} link={project.link} title={project.title}/>
+                    description={project.description} link={project.link} title={project.title} tags={project.tags}/>
                 ))}
             </div>
 

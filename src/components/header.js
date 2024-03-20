@@ -35,7 +35,7 @@ export default function Header() {
                       Projets
                     </a>
                   </li>
-                  <button className="navbar-contact">Contactez-moi</button>
+                  <a href="mailto:SAVRE.Kelian.1S2@orange.fr" className="navbar-contact">Contactez-moi</a>
                 </ul>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function Header() {
                     Projets
                   </a>
                 </li>
-                <button className="navbar-contact">Contactez-moi</button>
+                <a href="mailto:SAVRE.Kelian.1S2@orange.fr" className="navbar-contact">Contactez-moi</a>
               </ul>
               <button className="navbar-mobile-button" onClick={NavOpen}>
                 <i className="fa-solid fa-bars"></i>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ProjectComponent({img,title,description,link}){
+export default function ProjectComponent({img,title,description,link,tags}){
     return(
         <div className="project">
             <img src={img} alt={title} className="project-img"/>
@@ -10,8 +10,14 @@ export default function ProjectComponent({img,title,description,link}){
                 <a href={link} className="project-link">
                     <i className="fa-brands fa-github"></i>
                 </a>
-
                 <p className="project-description">{description}</p>
+
+                <div className="project-skills">
+                    {tags.map(tag=>(
+                        <p key={tag}>{tag}</p>
+                    ))}
+                </div>
+
 
             </div>
             

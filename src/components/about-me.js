@@ -14,9 +14,10 @@ export default function AboutMe(){
                 <p> Basé en Alpes-de-Haute-Provence, 
                     <br/>
                     Passionné d'informatique depuis mon enfance,
-                    je me suis lancé dans une formation afin d'en faire mon métier,
                     <br/>
-                    Cherche toujours à m'améliorer et à enrichir mes connaissances sur le domaine
+                    Je me suis lancé dans une formation d'intégrateur web auprès d'OpenClassrooms afin d'en faire mon métier,
+                    <br/>
+                    Cherche toujours à m'améliorer et à enrichir mes connaissances sur le domaine 
                 </p>
                 </div>
         </section>
