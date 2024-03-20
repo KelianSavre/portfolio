@@ -1,0 +1,71 @@
+[
+    {
+        "id":"1",
+        "title":"Booki",
+        "link":"https://github.com/KelianSavre/booki",
+        "img":"../images/Booki.webp",
+        "description":"Intégration site responsive desktop-first",
+        "tags":[
+            "HTML",
+            "CSS"
+        ]
+    },{
+        "id":"2",
+        "title":"OhMyFood",
+        "link":"https://github.com/KelianSavre/OhmyFood",
+        "img":"../images/OhMyFood.webp",
+        "description":"Intégration site responsive avec animations CSS",
+        "tags":[
+            "HTML",
+            "SASS",
+            "Animations CSS"
+        ]
+    },{
+        "id":"3",
+        "title":"Portfolio Photographie Sophie",
+        "link":"https://github.com/KelianSavre/PortfolioSophieBluel",
+        "img":"../images/SophieBluel.webp",
+        "description":"Intégration site statique vers dynamique Javascript avec login",
+        "tags":[
+            "Javascript",
+            "Requêtes API"
+        ]
+    },{
+        "id":"4",
+        "title":"Kasa",
+        "link":"https://github.com/KelianSavre/Kasa",
+        "img":"../images/Kasa.webp",
+        "description":"Intégration site avec React",
+        "tags":[
+            "React",
+            "React-Router",
+            "SASS"
+        ]
+    },{
+        "id":"5",
+        "title":"ArgentBank",
+        "link":"https://github.com/KelianSavre/ArgentBank",
+        "img":"../images/ArgentBank.webp",
+        "description":"Intégration site statique vers React et mise en place Redux pour intéractions API",
+        "tags":[
+            "React",
+            "Requêtes API",
+            "Redux"
+        ]
+    },{
+        "id":"6",
+        "title":"Portfolio Photographie Nina",
+        "link":"https://github.com/KelianSavre/NinaCarducciSEO",
+        "img":"../images/NinaCarducci.webp",
+        "description":"Optimisation SEO et Accessibilité d'un portfolio",
+        "tags":[
+            "SEO",
+            "Accessibilité"
+        ]
+    }
+
+
+
+
+
+]

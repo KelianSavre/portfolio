@@ -1,0 +1,39 @@
+.aboutMe {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe-content {
+  max-width: 55rem;
+}
+.aboutMe p {
+  font-size: 1rem;
+}
+@media screen and (min-width: 769px) {
+  .aboutMe p {
+    font-size: 1.2rem;
+  }
+}
+.aboutMe h1 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 769px) {
+  .aboutMe h1 {
+    font-size: 3rem;
+  }
+}
+.aboutMe h1 strong {
+  color: rgb(0, 185, 255);
+}
+.aboutMe .aboutMe-welcome {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 769px) {
+  .aboutMe .aboutMe-welcome {
+    font-size: 1.8rem;
+  }
+}/*# sourceMappingURL=about-me.css.map */

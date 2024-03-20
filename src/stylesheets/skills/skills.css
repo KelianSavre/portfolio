@@ -1,0 +1,42 @@
+.skills {
+  padding: 0.5rem;
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .skills {
+    padding: 2rem;
+  }
+}
+.skills-tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.443);
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+@media screen and (min-width: 769px) {
+  .skills-tech {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+}
+.skills-icons {
+  padding-top: 1rem;
+}
+.skills-icons img {
+  height: auto;
+  width: 2.5rem;
+  margin-right: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  .skills-icons img {
+    height: auto;
+    width: 4rem;
+    margin-right: 1rem;
+  }
+}/*# sourceMappingURL=skills.css.map */

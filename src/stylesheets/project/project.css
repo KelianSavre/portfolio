@@ -1,0 +1,72 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio-gallery {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+}
+@media screen and (min-width: 769px) {
+  .portfolio-gallery {
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+    row-gap: 3rem;
+    padding: 2rem;
+  }
+}
+.portfolio-title {
+  font-size: 2rem;
+}
+
+.project {
+  position: relative;
+  width: 100%;
+  border-radius: 1rem;
+}
+.project img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: inherit;
+  height: 20rem;
+  border-radius: 1rem;
+}
+.project-hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 0 2.5em;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 5%, rgb(0, 185, 255));
+  transition: height 0.4s;
+  border-radius: 1rem;
+  overflow: hidden;
+  row-gap: 1rem;
+  color: #fff;
+}
+.project-hidden h3 {
+  font-size: 1.5rem;
+}
+.project-hidden p {
+  font-size: 1rem;
+}
+.project-hidden i {
+  font-size: 2rem;
+  color: #fff;
+}
+.project:hover .project-hidden {
+  height: 100%;
+}/*# sourceMappingURL=project.css.map */

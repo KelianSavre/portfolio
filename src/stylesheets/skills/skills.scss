@@ -1,0 +1,42 @@
+.skills{
+    padding: 0.5rem;
+    width: 100%;
+    @media screen and (min-width:769px) {
+        padding: 2rem;
+        
+    }
+    
+    &-tech{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        background-color: rgba(255, 255, 255, 0.443);
+        width: 100%;
+        
+        border-radius: 0.5rem;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        @media screen and (min-width:769px) {
+            
+            max-width: 80%;
+            margin: auto;
+            margin-bottom: 1.5rem;
+        }
+
+    }
+    &-icons{
+        padding-top: 1rem;
+        
+        img{
+            height: auto;
+            width: 2.5rem;
+            margin-right: 0.8rem;
+            @media screen and (min-width:768px) {
+                height: auto;
+                width: 4rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}

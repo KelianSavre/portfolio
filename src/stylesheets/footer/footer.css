@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  background-color: rgba(41, 41, 47, 0.4705882353);
+}/*# sourceMappingURL=footer.css.map */
